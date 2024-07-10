@@ -1,0 +1,98 @@
+{% extends 'commonheader.html' %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<!-- Contact Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">New Register</h6>
+            <h1 class="mb-5">New Register Page</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                {{msg}}
+                <form action="/registerpage" method="post">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name"
+                                       required>
+                                <label for="fname">First Name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name"
+                                       required>
+                                <label for="lname">Last Name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="uname" name="uname" placeholder="Login Name"
+                                       required>
+                                <label for="uname">User Name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Password"
+                                       required>
+                                <label for="pwd">Password</label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="phnum" name="phnum"
+                                       placeholder="Phone Number"
+                                       required maxlength="10" pattern="[6789][0-9]{9}" title="Phnum shd be 10 digits & starts from 6,7,8,9">
+                                <label for="phnum">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email"
+                                       placeholder="Your Email"
+                                       required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <!--<div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" name="subject"
+                                       placeholder="Subject"
+                                       required>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>-->
+                        <div class="col-12">
+                            <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Enter Address here" name="address"
+                                              id="address" style="height: 150px"
+                                              required></textarea>
+                                <label for="address">Address</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="submit">New User</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+</body>
+</html>
+{% endblock %}

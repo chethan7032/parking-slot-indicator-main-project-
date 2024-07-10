@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "slotbookingapp-3670f",
+  "private_key_id": "22c3f890fc16fc1328f4551643ce65a54471056e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjBUHivulIQ//m\n4grkp6VI2y7Glo8ESlikK+DlumPhPG3hOmlcPjkjEfstldNYzf1jxhozi2fa9A08\nsGFVJnO16IPpis9Pl2f6qspj0Ghjl4lSWypHKy1RefFlc0hxkuvFMXHdXnggXBUo\nu/V1Qp9NrhkFbDlri0z0R82S5kAjfF3OzklmgoZTnJLD0ahmpdw5E02uB7bcWvsD\nuy4qr7X/Vua/ykwj9HguJTpniRC9Wmih7AIbGKpAYJdUjiu7+2psE7hb54qE4k8Q\nsd98TCBC4cpe7jYWhZksjVNpSYrluSZbazYNtkgCT7K7yLrPAdAHKHXuVCOK/Av9\n/SzxAImXAgMBAAECggEAWyQ2MlkhAQFD0Ka5ZtkjU1+jpNi3LCrI8YgoLzKofLmt\nB3pS6FSWzcyfQcrf4cw5SYAz7rOuC0plshLB0NSyKbrikrVGy5ZmiU1eGbqG3kzt\nNaIiFBZyiD5juq4QzIAGpdFW/F+77InreMIVJnGL0TzvEK1FVDbFu2DEWJCV+Whn\n3CG59pFeUBHBzVD3SD0bK5yr+07bANSUA+L4rC+hlSEjx6c/3diOcaMuJN7f+VRy\nNwD+IAQfV3w9o8kKuVfu9KFPadQlJV71bH6xpyDv4Se1AF8R6AJ4iVrzgrJFMsNo\nsP3rvItKhiPukRtv7BWCz5ZX6uef5lnrEgAR71n7sQKBgQD8qlluHCTCmVbGk116\naSzW0Zr7oVQPvorECJ/1Rwv8tatlmKC8yokxnghHNlDghR43as2apOAtTK1fCX8Q\nuAUD5pn8ApiGw1Aje4K/wn4v/OMQTcFEXeEb3RQu3g5SBEHHD97FkH6gKowYD76O\nI83etYz4W69DfL8SHBx2hoJB2QKBgQDmBEPCXqPPcp83KFxk7qGNJZ7Vu4ci1WOV\nWGy5G0p3Ebx24V7TTRPcTV7aEcrJz9SiDA2DEyZUMCLARDjZ3HaE6WXPCdSYTiVL\nzaeOvoSEg+tX9gdf9/DVbMjFwocbDwPimqzDrJTntHDJh7zo+8BfmtKJYeIE3RNP\nIqhAV1OQ7wKBgQCXEQMHYqxX7XaEo/dwCRJWHlybtomcIEC3lLCO5ju0jKo9xFPW\njQIaOHKaoU8Z7n1yhNkJbSrb6sx91h+yz1OwUWAf3S105bI0hNRX8uGfr4PTa6ny\nRm8hSb2XiAzn3MO3UTXQyePrv4SjnkZAlgew8Luogqj3oM5c9ZHPC/01gQKBgD8/\nqvY2merARQGgyo9Cgw/R6XQyJb2xWbnGX9cipv5I1T8HR9Don+5zJALo449M49ZP\nZCPHz0FVHykpWUym77wqhcFBncDntB+9BDcfMkdSExPT5kFAZ2v4htjCXe5V2aal\nC56exS9VkbII7ixOlZ50bzIxxTm7JMUc7ZELskHnAoGBALG27+3HigQf7hmr9P4l\n1g8YMTdT9EioUQMbcdGVpC48vvOW3U1ESJWm0ZaCWIbLcsWw+CMeqfICVMnyOzga\nzAvPHXhMYUaftORh3t9yYgkL+FTzIIcC+OXb1zlPVoyDfgtqHNqWtPLhgD1gefEE\na0DT24TMw9y8Lbvh0NZzVEjP\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fd5kk@slotbookingapp-3670f.iam.gserviceaccount.com",
+  "client_id": "111316078951433990936",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fd5kk%40slotbookingapp-3670f.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

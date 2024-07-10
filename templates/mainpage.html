@@ -1,0 +1,72 @@
+{% extends 'mainheader.html' %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        setTimeout(function() {
+            location.reload(1);
+        }, 1000);
+    </script>
+</head>
+<body>
+
+<br><br><br><br>
+
+<div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container">
+                    <div class="row space-rows">
+                        <div class="col">
+                            <div class="card cards-shadown cards-hover" data-aos="flip-left" data-aos-duration="950">
+                                <div class="card-header" style="background: rgb(36,119,7);"><span class="space"><a href="#"></a></span>
+                                    <div class="cardheader-text">
+                                        <h4 id="heading-card-1" style="text-align: center;font-size: 33px;">Slots Available&nbsp;</h4>
+                                        <p id="cardheader-subtext-1" style="font-size: 67px;text-align: center;">
+                                            {% for item in data %}
+                                              {{ item }}
+                                            {% endfor %}
+
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card cards-shadown cards-hover" data-aos="slide-right" data-aos-duration="950">
+                                <div class="card-header" style="background: rgb(224,48,37);"><span class="space"><a href="#"></a></span>
+                                    <div class="cardheader-text">
+                                        <h4 id="heading-card-2" style="font-size: 33px;text-align: center;">Slots Used</h4>
+                                        <p id="cardheader-subtext-2" style="font-size: 67px;text-align: center;">
+                                            {% for item1 in new_data %}
+                                              {{ item1 }}
+                                            {% endfor %}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card cards-shadown cards-hover" data-aos="flip-up" data-aos-duration="950">
+                                <div class="card-header cards-header-hover" style="background: var(--bs-blue);"><span class="space"><a href="#"></a></span>
+                                    <div class="cardheader-text">
+                                        <h4 id="heading-card-3" style="font-size: 33px;text-align: center;">Total slots</h4>
+                                        <p id="cardheader-subtext-3" style="font-size: 67px;text-align: center;">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+
+
+</body>
+</html>
+{% endblock %}
